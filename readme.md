@@ -14,6 +14,8 @@ The project consists of the following main components:
 
 4. **Data Visualization**: Presents the analyzed data through API endpoints in JSON format for visualization or further consumption.
 
+**A logs folder will get generated to display logs of the application.**
+
 ## How to Use
 
 To run the project locally, follow these steps:
