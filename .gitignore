@@ -1,4 +1,7 @@
 .venv/
 .idea/
-.logs/
+logs/
 .DS_Store
+/DS_Store
+src/__pycache__
+# add logs folder to gitignore
