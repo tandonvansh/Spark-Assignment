@@ -16,6 +16,15 @@ from src.sparkUtils import create_spark_session, read_csv, verifyAPI
 
 
 def main():
+    """
+    Main function to execute the COVID-19 data analysis and API verification.
+
+    This function loads configurations from a JSON file, creates a SparkSession, fetches COVID-19 data from an API,
+    saves the data to a CSV file, reads the CSV file into a DataFrame, performs various data analysis tasks,
+    and verifies the APIs created in covid_api.py.
+
+    :return: None
+    """
     try:
         # Load configurations from config.json
         with open('config.json', 'r') as f:

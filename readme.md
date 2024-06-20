@@ -1,6 +1,6 @@
-# COVID-19 Countrywise Data Analysis
+# COVID-19 Country-wise Data Analysis
 
-This project fetches COVID-19 data for selected countries from the [disease.sh API](https://disease.sh/docs/#/COVID-19%3A%20Worldometers/get_v3_covid_19_countries) and performs data analysis using PySpark DataFrame. Additionally, it exposes an API using Flask to display the analyzed data.
+This project fetches COVID-19 data for selected countries from the [disease.sh API](https://disease.sh/docs/#/COVID-19%3A%20Worldometers/get_v3_covid_19_countries) and performs data analysis using PySpark DataFrame. Additionally, it developes an API using Flask to display the analyzed data.
 
 ## Overview
 
@@ -33,5 +33,9 @@ python src/covid_api.py
 
 # Run the Main application:
 python main.py
+
 ```
 
+Now different api endpoints can be accessed on
+
+`http://127.0.0.1:5000/{route}`

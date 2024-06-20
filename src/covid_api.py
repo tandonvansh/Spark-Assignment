@@ -33,6 +33,20 @@ def log_activity(api_name, result):
 
 @app.route('/covid-data', methods=['GET'])
 def covid_data():
+    """
+    This function handles the '/covid-data' API endpoint.
+    It retrieves COVID-19 data from a DataFrame and returns it as a JSON response.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing COVID-19 data. If an error occurs during processing,
+    it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+    """
     try:
         json_data = df.toJSON()  # Convert DataFrame to JSON string
         parsed_data = [json.loads(line) for line in json_data.collect()]  # Parse JSON strings
@@ -44,6 +58,20 @@ def covid_data():
 
 @app.route('/most-affected-country', methods=['GET'])
 def most_affected_country_api():
+    """
+    This function handles the '/most-affected-country' API endpoint.
+    It retrieves the country with the highest number of total cases from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the most affected country.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+    """
     try:
         result = most_affected_country(df)
         log_activity("most-affected-country", result)
@@ -55,6 +83,21 @@ def most_affected_country_api():
 
 @app.route('/least-affected-country', methods=['GET'])
 def least_affected_country_api():
+    """
+    This function handles the '/least-affected-country' API endpoint.
+    It retrieves the country with the lowest number of total cases from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the least affected country.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = least_affected_country(df)
         log_activity("least-affected-country", result)
@@ -66,6 +109,21 @@ def least_affected_country_api():
 
 @app.route('/country-with-highest-cases', methods=['GET'])
 def country_with_highest_cases_api():
+    """
+    This function handles the '/country-with-highest-cases' API endpoint.
+    It retrieves the country with the highest number of total cases from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the country with the highest number of total cases.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = country_with_highest_cases(df)
         log_activity("country-with-highest-cases", result)
@@ -77,6 +135,21 @@ def country_with_highest_cases_api():
 
 @app.route('/country-with-minimum-cases', methods=['GET'])
 def country_with_minimum_cases_api():
+    """
+    This function handles the '/country-with-minimum-cases' API endpoint.
+    It retrieves the country with the lowest number of total cases from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the country with the lowest number of total cases.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = country_with_minimum_cases(df)
         log_activity("country-with-minimum-cases", result)
@@ -88,6 +161,21 @@ def country_with_minimum_cases_api():
 
 @app.route('/total-cases', methods=['GET'])
 def total_cases_api():
+    """
+    This function handles the '/total-cases' API endpoint.
+    It retrieves the total number of COVID-19 cases from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the total number of COVID-19 cases.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = total_cases(df)
         log_activity("total-cases", result)
@@ -99,6 +187,21 @@ def total_cases_api():
 
 @app.route('/most-efficient-country', methods=['GET'])
 def most_efficient_country_api():
+    """
+    This function handles the '/most-efficient-country' API endpoint.
+    It retrieves the country with the highest efficiency in terms of cases per population from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the most efficient country.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = most_efficient_country(df)
         log_activity("most-efficient-country", result)
@@ -110,6 +213,21 @@ def most_efficient_country_api():
 
 @app.route('/least-efficient-country', methods=['GET'])
 def least_efficient_country_api():
+    """
+    This function handles the '/least-efficient-country' API endpoint.
+    It retrieves the country with the lowest efficiency in terms of cases per population from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the least efficient country.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = least_efficient_country(df)
         log_activity("least-efficient-country", result)
@@ -121,6 +239,21 @@ def least_efficient_country_api():
 
 @app.route('/least-suffering-country', methods=['GET'])
 def least_suffering_country_api():
+    """
+    This function handles the '/least-suffering-country' API endpoint.
+    It retrieves the country with the lowest number of active cases (cases - recovered - deaths) from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the least suffering country.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = least_suffering_country(df)
         log_activity("least-suffering-country", result)
@@ -132,6 +265,21 @@ def least_suffering_country_api():
 
 @app.route('/still-suffering-country', methods=['GET'])
 def still_suffering_country_api():
+    """
+    This function handles the '/still-suffering-country' API endpoint.
+    It retrieves the country with the highest number of active cases (cases - recovered - deaths) from the DataFrame.
+
+    Parameters:
+    None
+
+    Returns:
+    JSON response containing the name of the country with the highest number of active cases.
+    If an error occurs during processing, it returns a JSON response with an error message and a 500 status code.
+
+    Raises:
+    Exception: If any error occurs during processing.
+
+    """
     try:
         result = still_suffering_country(df)
         log_activity("still-suffering-country", result)
