@@ -1,0 +1,155 @@
+2024-05-01 22:35:56,055 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-01 22:35:56,055 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-01 22:35:56,056 - INFO -  * Restarting with stat
+2024-05-01 22:36:05,554 - WARNING -  * Debugger is active!
+2024-05-01 22:36:05,571 - INFO -  * Debugger PIN: 614-107-978
+2024-05-01 22:36:29,926 - INFO - API 'most-affected-country' was accessed. Result: Mexico
+2024-05-01 22:36:29,927 - INFO - 127.0.0.1 - - [01/May/2024 22:36:29] "GET /most-affected-country HTTP/1.1" 200 -
+2024-05-01 22:36:29,929 - INFO - Closing down clientserver connection
+2024-05-01 22:36:30,145 - INFO - API 'least-affected-country' was accessed. Result: S. Korea
+2024-05-01 22:36:30,145 - INFO - 127.0.0.1 - - [01/May/2024 22:36:30] "GET /least-affected-country HTTP/1.1" 200 -
+2024-05-01 22:36:30,146 - INFO - Closing down clientserver connection
+2024-05-01 22:36:30,291 - INFO - API 'country-with-highest-cases' was accessed. Result: India
+2024-05-01 22:36:30,292 - INFO - 127.0.0.1 - - [01/May/2024 22:36:30] "GET /country-with-highest-cases HTTP/1.1" 200 -
+2024-05-01 22:36:30,292 - INFO - Closing down clientserver connection
+2024-05-01 22:36:30,478 - INFO - API 'country-with-minimum-cases' was accessed. Result: Indonesia
+2024-05-01 22:36:30,478 - INFO - 127.0.0.1 - - [01/May/2024 22:36:30] "GET /country-with-minimum-cases HTTP/1.1" 200 -
+2024-05-01 22:36:30,479 - INFO - Closing down clientserver connection
+2024-05-01 22:36:30,940 - INFO - API 'total-cases' was accessed. Result: 412670748
+2024-05-01 22:36:30,941 - INFO - 127.0.0.1 - - [01/May/2024 22:36:30] "GET /total-cases HTTP/1.1" 200 -
+2024-05-01 22:36:30,941 - INFO - Closing down clientserver connection
+2024-05-01 22:36:31,131 - INFO - API 'most-efficient-country' was accessed. Result: S. Korea
+2024-05-01 22:36:31,131 - INFO - 127.0.0.1 - - [01/May/2024 22:36:31] "GET /most-efficient-country HTTP/1.1" 200 -
+2024-05-01 22:36:31,132 - INFO - Closing down clientserver connection
+2024-05-01 22:36:31,316 - INFO - API 'least-efficient-country' was accessed. Result: India
+2024-05-01 22:36:31,316 - INFO - 127.0.0.1 - - [01/May/2024 22:36:31] "GET /least-efficient-country HTTP/1.1" 200 -
+2024-05-01 22:36:31,318 - INFO - Closing down clientserver connection
+2024-05-01 22:36:31,491 - INFO - API 'least-suffering-country' was accessed. Result: India
+2024-05-01 22:36:31,492 - INFO - 127.0.0.1 - - [01/May/2024 22:36:31] "GET /least-suffering-country HTTP/1.1" 200 -
+2024-05-01 22:36:31,493 - INFO - Closing down clientserver connection
+2024-05-01 22:36:31,618 - INFO - API 'still-suffering-country' was accessed. Result: Spain
+2024-05-01 22:36:31,619 - INFO - 127.0.0.1 - - [01/May/2024 22:36:31] "GET /still-suffering-country HTTP/1.1" 200 -
+2024-05-01 22:36:31,619 - INFO - Closing down clientserver connection
+2024-05-01 22:44:07,761 - INFO -  * Detected change in '/Users/abhaydixit/Desktop/spark_assignment/src/covid_api.py', reloading
+2024-05-01 22:44:07,762 - INFO - Closing down clientserver connection
+2024-05-01 22:44:07,848 - INFO -  * Restarting with stat
+2024-05-01 22:44:09,003 - INFO - Closing down clientserver connection
+2024-05-01 22:45:36,284 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-01 22:45:36,284 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-01 22:45:36,286 - INFO -  * Restarting with stat
+2024-05-01 22:45:46,058 - WARNING -  * Debugger is active!
+2024-05-01 22:45:46,071 - INFO -  * Debugger PIN: 614-107-978
+2024-05-01 22:46:21,168 - INFO - API 'most-affected-country' was accessed. Result: Mexico
+2024-05-01 22:46:21,169 - INFO - 127.0.0.1 - - [01/May/2024 22:46:21] "GET /most-affected-country HTTP/1.1" 200 -
+2024-05-01 22:46:21,171 - INFO - Closing down clientserver connection
+2024-05-01 22:46:21,366 - INFO - API 'least-affected-country' was accessed. Result: S. Korea
+2024-05-01 22:46:21,367 - INFO - 127.0.0.1 - - [01/May/2024 22:46:21] "GET /least-affected-country HTTP/1.1" 200 -
+2024-05-01 22:46:21,368 - INFO - Closing down clientserver connection
+2024-05-01 22:46:21,511 - INFO - API 'country-with-highest-cases' was accessed. Result: India
+2024-05-01 22:46:21,512 - INFO - 127.0.0.1 - - [01/May/2024 22:46:21] "GET /country-with-highest-cases HTTP/1.1" 200 -
+2024-05-01 22:46:21,514 - INFO - Closing down clientserver connection
+2024-05-01 22:46:21,652 - INFO - API 'country-with-minimum-cases' was accessed. Result: Indonesia
+2024-05-01 22:46:21,652 - INFO - 127.0.0.1 - - [01/May/2024 22:46:21] "GET /country-with-minimum-cases HTTP/1.1" 200 -
+2024-05-01 22:46:21,653 - INFO - Closing down clientserver connection
+2024-05-01 22:46:22,136 - INFO - API 'total-cases' was accessed. Result: 412670748
+2024-05-01 22:46:22,136 - INFO - 127.0.0.1 - - [01/May/2024 22:46:22] "GET /total-cases HTTP/1.1" 200 -
+2024-05-01 22:46:22,137 - INFO - Closing down clientserver connection
+2024-05-01 22:46:22,306 - INFO - API 'most-efficient-country' was accessed. Result: S. Korea
+2024-05-01 22:46:22,306 - INFO - 127.0.0.1 - - [01/May/2024 22:46:22] "GET /most-efficient-country HTTP/1.1" 200 -
+2024-05-01 22:46:22,307 - INFO - Closing down clientserver connection
+2024-05-01 22:46:22,518 - INFO - API 'least-efficient-country' was accessed. Result: India
+2024-05-01 22:46:22,518 - INFO - 127.0.0.1 - - [01/May/2024 22:46:22] "GET /least-efficient-country HTTP/1.1" 200 -
+2024-05-01 22:46:22,519 - INFO - Closing down clientserver connection
+2024-05-01 22:46:22,631 - INFO - API 'least-suffering-country' was accessed. Result: India
+2024-05-01 22:46:22,632 - INFO - 127.0.0.1 - - [01/May/2024 22:46:22] "GET /least-suffering-country HTTP/1.1" 200 -
+2024-05-01 22:46:22,634 - INFO - Closing down clientserver connection
+2024-05-01 22:46:22,738 - INFO - API 'still-suffering-country' was accessed. Result: Spain
+2024-05-01 22:46:22,738 - INFO - 127.0.0.1 - - [01/May/2024 22:46:22] "GET /still-suffering-country HTTP/1.1" 200 -
+2024-05-01 22:46:22,739 - INFO - Closing down clientserver connection
+2024-05-01 22:47:53,270 - INFO -  * Detected change in '/Users/abhaydixit/Desktop/spark_assignment/src/covid_api.py', reloading
+2024-05-01 22:47:53,271 - INFO - Closing down clientserver connection
+2024-05-01 22:47:53,341 - INFO -  * Restarting with stat
+2024-05-01 22:48:06,532 - WARNING -  * Debugger is active!
+2024-05-01 22:48:06,546 - INFO -  * Debugger PIN: 614-107-978
+2024-05-01 22:54:19,988 - INFO -  * Detected change in '/Users/abhaydixit/Desktop/spark_assignment/main.py', reloading
+2024-05-01 22:54:19,989 - INFO - Closing down clientserver connection
+2024-05-01 22:54:20,062 - INFO -  * Restarting with stat
+2024-05-01 22:54:31,773 - WARNING -  * Debugger is active!
+2024-05-01 22:54:31,787 - INFO -  * Debugger PIN: 614-107-978
+2024-05-01 22:55:20,322 - INFO - Closing down clientserver connection
+2024-05-01 22:55:20,445 - INFO - Closing down clientserver connection
+2024-05-01 22:55:32,540 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-01 22:55:32,540 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-01 22:55:32,541 - INFO -  * Restarting with stat
+2024-05-01 22:55:42,809 - WARNING -  * Debugger is active!
+2024-05-01 22:55:42,821 - INFO -  * Debugger PIN: 614-107-978
+2024-05-01 22:56:16,455 - INFO -  * Detected change in '/Users/abhaydixit/Desktop/spark_assignment/main.py', reloading
+2024-05-01 22:56:16,456 - INFO - Closing down clientserver connection
+2024-05-01 22:56:16,668 - INFO -  * Restarting with stat
+2024-05-01 22:56:29,322 - WARNING -  * Debugger is active!
+2024-05-01 22:56:29,337 - INFO -  * Debugger PIN: 614-107-978
+2024-05-01 22:56:29,877 - INFO - API 'most-affected-country' was accessed. Result: Mexico
+2024-05-01 22:56:29,878 - INFO - 127.0.0.1 - - [01/May/2024 22:56:29] "GET /most-affected-country HTTP/1.1" 200 -
+2024-05-01 22:56:29,880 - INFO - Closing down clientserver connection
+2024-05-01 22:56:30,169 - INFO - API 'least-affected-country' was accessed. Result: S. Korea
+2024-05-01 22:56:30,169 - INFO - 127.0.0.1 - - [01/May/2024 22:56:30] "GET /least-affected-country HTTP/1.1" 200 -
+2024-05-01 22:56:30,170 - INFO - Closing down clientserver connection
+2024-05-01 22:56:30,289 - INFO - API 'country-with-highest-cases' was accessed. Result: India
+2024-05-01 22:56:30,289 - INFO - 127.0.0.1 - - [01/May/2024 22:56:30] "GET /country-with-highest-cases HTTP/1.1" 200 -
+2024-05-01 22:56:30,290 - INFO - Closing down clientserver connection
+2024-05-01 22:56:30,422 - INFO - API 'country-with-minimum-cases' was accessed. Result: Indonesia
+2024-05-01 22:56:30,423 - INFO - 127.0.0.1 - - [01/May/2024 22:56:30] "GET /country-with-minimum-cases HTTP/1.1" 200 -
+2024-05-01 22:56:30,424 - INFO - Closing down clientserver connection
+2024-05-01 22:56:30,972 - INFO - API 'total-cases' was accessed. Result: 412670748
+2024-05-01 22:56:30,972 - INFO - 127.0.0.1 - - [01/May/2024 22:56:30] "GET /total-cases HTTP/1.1" 200 -
+2024-05-01 22:56:30,974 - INFO - Closing down clientserver connection
+2024-05-01 22:56:31,157 - INFO - API 'most-efficient-country' was accessed. Result: S. Korea
+2024-05-01 22:56:31,157 - INFO - 127.0.0.1 - - [01/May/2024 22:56:31] "GET /most-efficient-country HTTP/1.1" 200 -
+2024-05-01 22:56:31,158 - INFO - Closing down clientserver connection
+2024-05-01 22:56:31,361 - INFO - API 'least-efficient-country' was accessed. Result: India
+2024-05-01 22:56:31,362 - INFO - 127.0.0.1 - - [01/May/2024 22:56:31] "GET /least-efficient-country HTTP/1.1" 200 -
+2024-05-01 22:56:31,363 - INFO - Closing down clientserver connection
+2024-05-01 22:56:31,504 - INFO - API 'least-suffering-country' was accessed. Result: India
+2024-05-01 22:56:31,505 - INFO - 127.0.0.1 - - [01/May/2024 22:56:31] "GET /least-suffering-country HTTP/1.1" 200 -
+2024-05-01 22:56:31,506 - INFO - Closing down clientserver connection
+2024-05-01 22:56:31,633 - INFO - API 'still-suffering-country' was accessed. Result: Spain
+2024-05-01 22:56:31,634 - INFO - 127.0.0.1 - - [01/May/2024 22:56:31] "GET /still-suffering-country HTTP/1.1" 200 -
+2024-05-01 22:56:31,634 - INFO - Closing down clientserver connection
+2024-05-01 23:01:50,597 - INFO - Closing down clientserver connection
+2024-05-01 23:01:50,722 - INFO - Closing down clientserver connection
+2024-05-02 13:03:11,512 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-02 13:03:11,512 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-02 13:03:11,513 - INFO -  * Restarting with stat
+2024-05-02 13:03:19,356 - WARNING -  * Debugger is active!
+2024-05-02 13:03:19,368 - INFO -  * Debugger PIN: 614-107-978
+2024-05-02 13:03:37,043 - INFO - API 'most-affected-country' was accessed. Result: Mexico
+2024-05-02 13:03:37,043 - INFO - 127.0.0.1 - - [02/May/2024 13:03:37] "GET /most-affected-country HTTP/1.1" 200 -
+2024-05-02 13:03:37,045 - INFO - Closing down clientserver connection
+2024-05-02 13:03:37,232 - INFO - API 'least-affected-country' was accessed. Result: S. Korea
+2024-05-02 13:03:37,232 - INFO - 127.0.0.1 - - [02/May/2024 13:03:37] "GET /least-affected-country HTTP/1.1" 200 -
+2024-05-02 13:03:37,233 - INFO - Closing down clientserver connection
+2024-05-02 13:03:37,358 - INFO - API 'country-with-highest-cases' was accessed. Result: India
+2024-05-02 13:03:37,358 - INFO - 127.0.0.1 - - [02/May/2024 13:03:37] "GET /country-with-highest-cases HTTP/1.1" 200 -
+2024-05-02 13:03:37,359 - INFO - Closing down clientserver connection
+2024-05-02 13:03:37,468 - INFO - API 'country-with-minimum-cases' was accessed. Result: Indonesia
+2024-05-02 13:03:37,468 - INFO - 127.0.0.1 - - [02/May/2024 13:03:37] "GET /country-with-minimum-cases HTTP/1.1" 200 -
+2024-05-02 13:03:37,469 - INFO - Closing down clientserver connection
+2024-05-02 13:03:37,876 - INFO - API 'total-cases' was accessed. Result: 412670748
+2024-05-02 13:03:37,877 - INFO - 127.0.0.1 - - [02/May/2024 13:03:37] "GET /total-cases HTTP/1.1" 200 -
+2024-05-02 13:03:37,877 - INFO - Closing down clientserver connection
+2024-05-02 13:03:38,026 - INFO - API 'most-efficient-country' was accessed. Result: S. Korea
+2024-05-02 13:03:38,027 - INFO - 127.0.0.1 - - [02/May/2024 13:03:38] "GET /most-efficient-country HTTP/1.1" 200 -
+2024-05-02 13:03:38,027 - INFO - Closing down clientserver connection
+2024-05-02 13:03:38,190 - INFO - API 'least-efficient-country' was accessed. Result: India
+2024-05-02 13:03:38,190 - INFO - 127.0.0.1 - - [02/May/2024 13:03:38] "GET /least-efficient-country HTTP/1.1" 200 -
+2024-05-02 13:03:38,192 - INFO - Closing down clientserver connection
+2024-05-02 13:03:38,290 - INFO - API 'least-suffering-country' was accessed. Result: India
+2024-05-02 13:03:38,290 - INFO - 127.0.0.1 - - [02/May/2024 13:03:38] "GET /least-suffering-country HTTP/1.1" 200 -
+2024-05-02 13:03:38,291 - INFO - Closing down clientserver connection
+2024-05-02 13:03:38,376 - INFO - API 'still-suffering-country' was accessed. Result: Spain
+2024-05-02 13:03:38,376 - INFO - 127.0.0.1 - - [02/May/2024 13:03:38] "GET /still-suffering-country HTTP/1.1" 200 -
+2024-05-02 13:03:38,377 - INFO - Closing down clientserver connection
