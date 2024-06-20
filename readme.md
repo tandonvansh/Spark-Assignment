@@ -29,7 +29,7 @@ cd <project-directory>
 pip install -r requirements.txt
 
 # Run the Flask application:
-python src/covid_api.py
+python src/covidApi.py
 
 # Run the Main application:
 python main.py
